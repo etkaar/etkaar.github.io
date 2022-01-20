@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Video | PensInk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta property="og:title" content="Video | PensInk">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.pensink.org/en/video/zeiss_f0_77_01">
+<link rel="canonical" href="https://www.pensink.org/en/video/zeiss_f0_77_01">
+<link rel="icon" href="/archive/pensink.org/src/favicon.ico">
+<link rel="stylesheet" href="/archive/pensink.org/src/theme.css?v=eed9b2cc88">
+<script src="/archive/pensink.org/src/scripts.js?v=620012022"></script>
+</head>
+<body id="p35" class="loading">
+<header id="header">
+<ul id="languages">
+<li class="sel"><a href="/archive/pensink.org/src/en/video">English</a></li><li><a href="/archive/pensink.org/src/de/video">Deutsch</a></li></ul>
+<a href="/archive/pensink.org/src/en"><img src="/archive/pensink.org/src/images/logo.svg" alt="Logo" title="PensInk.org" id="logo"></a>
+</header>
+<nav id="top">
+<div id="menus">
+<ul>
+<li><a href="/archive/pensink.org/src/en/fountain-pens">Fountain Pens</a></li><li><a href="/archive/pensink.org/src/en/how-to-replace-an-ink-sac">Servicing</a></li><li><a href="/archive/pensink.org/src/en/the-rusted-ink-bottle-cap">Restorations</a></li><li><a href="/archive/pensink.org/src/en/making-a-filler-box">Filler Box</a></li><li><a href="/archive/pensink.org/src/en/photography">Photography</a></li><li><a href="/archive/pensink.org/src/en/gallery">Gallery</a></li></ul>
+</div>
+</nav>
+<main class="loading">
+<article class="page">
+<header>
+<h1 id="page">Carl Zeiss Jena 0.77/50mm</h1>
+</header>
+<section>
+<div class="p-bottom-2 m-bottom-1">
+<ul id="video-quality-selector" class="p-menu p-top-2">
+<li id="quality-sd">SD (720p)</li>
+<li id="quality-hd" class="sel">HD (1080p)</li>
+<li id="quality-uhd">4K (2160p)</li>
+</ul>
+<ul class="photo-gallery p-top-1">
+<video id="video-zeiss_f0_77_01" class="video" controls>
+<source id="source-zeiss_f0_77_01" src="/archive/pensink.org/src/videos/zeiss_f0.77_01.1080p.webm" type="video/webm">
+Video not supported.
+</video>
+</ul>
+</div>
+</section>
+</article>
+<script>
+let current_quality = 'quality-sd';
+let elements = document.querySelectorAll('#video-quality-selector li');
+for (let i = 0; i < elements.length; i++) {
+elements[i].addEventListener('click', function() {
+let id = this.getAttribute('id');
+let suffix;
+if (id == current_quality) {
+return;
+}
+current_quality = id;
+if (id == 'quality-sd') {
+suffix = '720p';
+} else if (id == 'quality-hd') {
+suffix = '1080p';
+} else if (id == 'quality-uhd') {
+suffix = '2160p';
+}
+if (suffix) {
+let video_sources = document.querySelectorAll('video source');
+for (let ii = 0; ii < video_sources.length; ii++) {
+let video_id = video_sources[ii].getAttribute('id').split('-')[1];
+let video = document.querySelector('#video-' + video_id);
+let new_path;
+let old_path = video_sources[ii].getAttribute('src');
+new_path = old_path.split('.');
+new_path[(new_path.length - 2)] = suffix;
+new_path = new_path.join('.');
+video_sources[ii].setAttribute('src', new_path);
+video.load();
+for (let iv = 0; iv < elements.length; iv++) {
+elements[iv].classList.remove('sel');
+}
+elements[i].classList.add('sel');
+}
+}
+console.log(id);
+});
+}
+</script>
+</main>
+<footer>
+<ul class="footer-menu two">
+<li><a href="/archive/pensink.org/src/en/legal">Legal</a></li><li><a href="/archive/pensink.org/src/en/privacy">Privacy</a></li><li><a href="/archive/pensink.org/src/en/contact">Contact</a></li></ul>
+<span>Copyright © 2016–2022 PensInk.org</span>
+</footer>
+<div class="hide">
+<svg>
+<defs>
+<symbol id="link" viewBox="0 0 79.935 79.935">
+<g style="fill-opacity:1" >
+<path style="fill-rule:nonzero;fill-opacity:1" d="M 54.073,9.405 C 51.476,9.405 49.37,7.299 49.37,4.702 49.37,2.106 51.476,0 54.073,0 h 21.16 c 2.595,0 4.702,2.108 4.702,4.702 v 21.161 c 0,2.596 -2.106,4.702 -4.702,4.702 -2.596,0 -4.702,-2.106 -4.702,-4.702 v -9.81 L 43.292,43.292 c -1.836,1.835 -4.813,1.835 -6.649,0 -1.835,-1.836 -1.835,-4.813 0,-6.649 L 63.882,9.405 Z M 70.531,44.67 c 0,-2.597 2.106,-4.702 4.702,-4.702 2.596,0 4.702,2.105 4.702,4.702 v 30.563 c 0,2.596 -2.106,4.702 -4.702,4.702 H 4.702 C 2.106,79.935 0,77.829 0,75.233 V 4.702 C 0,2.106 2.106,0 4.702,0 h 30.563 c 2.597,0 4.703,2.106 4.703,4.702 0,2.597 -2.106,4.703 -4.703,4.703 H 9.405 v 61.126 h 61.126 z" class="fil0" />
+</g>
+</symbol>
+<symbol id="download" viewBox="0 0 72 72">
+<g transform="translate(-14,-14)">
+<polygon points="23,59 14,59 14,86 86,86 86,59 77,59 77,77 23,77 " />
+<polygon points="41,14 41,41 32,41 50,68 68,41 59,41 59,14 " />
+</g>
+</symbol>
+<symbol id="nav-arrow" viewBox="0 0 86.36396 55.16396">
+<g transform="translate(-6.8180195,-22.418019)">
+<polygon points="18.8,25.6 50,56.8 81.2,25.6 90,34.4 50,74.4 10,34.4"/>
+</g>
+</symbol>
+<symbol id="page-comments" viewBox="0 0 85.434639 95.817322">
+<path d="m 1.4173198,31.81732 c 6,-22.8000002 29.4000002,-36.4000002 52.2000002,-30.4000002 22.8,6 36.4,29.3000002 30.4,52.1000002 -2.8,10.8 -9.6,19.6 -18.3,25.1 l 11.2,17.2 -45.1,-11.9 c -22.8000002,-5.9 -36.4000002,-29.3 -30.4000002,-52.1 z m 19.1000002,27.1 h 22.7 v -6.8 h -22.7 z m 0,-13.7 h 42.3 v -6.8 h -42.4 v 6.8 z m 0,-13 h 42.3 v -6.8 h -42.4 v 6.8 z"/>
+</symbol>
+</defs>
+</svg>
+</div>
+<div id="dimmer"></div>
+<div id="media-viewer">
+<span class="helper-alignment"></span>
+<div id="media-viewer-controls">
+<span id="media-viewer-close">
+<svg width="24px" height="24px" viewBox="0 0 24 24">
+<path style="fill:#ffffff;fill-opacity:1" d="M22.245,4.015c0.313,0.313,0.313,0.826,0,1.139l-6.276,6.27c-0.313,0.312-0.313,0.826,0,1.14l6.273,6.272 c0.313,0.313,0.313,0.826,0,1.14l-2.285,2.277c-0.314,0.312-0.828,0.312-1.142,0l-6.271-6.271c-0.313-0.313-0.828-0.313-1.141,0 l-6.276,6.267c-0.313,0.313-0.828,0.313-1.141,0l-2.282-2.28c-0.313-0.313-0.313-0.826,0-1.14l6.278-6.269 c0.313-0.312,0.313-0.826,0-1.14L1.709,5.147c-0.314-0.313-0.314-0.827,0-1.14l2.284-2.278C4.308,1.417,4.821,1.417,5.135,1.73 L11.405,8c0.314,0.314,0.828,0.314,1.141,0.001l6.276-6.267c0.312-0.312,0.826-0.312,1.141,0L22.245,4.015z" />
+</svg>
+</span>
+<span id="media-viewer-view">
+<svg width="28px" height="28px" viewBox="0 0 32 32">
+<path style="fill:#ffffff;fill-opacity:1" d="M29.283,25.749l-7.125-7.127c0.959-1.582,1.521-3.436,1.521-5.422c0-5.793-4.688-10.484-10.481-10.486 C7.409,2.716,2.717,7.407,2.717,13.199c0,5.788,4.693,10.479,10.484,10.479c1.987,0,3.838-0.562,5.42-1.521l7.129,7.129 L29.283,25.749z M6.716,13.199C6.722,9.617,9.619,6.72,13.2,6.714c3.58,0.008,6.478,2.903,6.484,6.485 c-0.007,3.579-2.904,6.478-6.484,6.483C9.618,19.677,6.721,16.778,6.716,13.199z"></path>
+</svg>
+</span>
+</div>
+<img id="media-viewer-source" alt="media viewer image" src="/archive/pensink.org/src/">
+<input type="hidden" name="media-viewer-source" value="">
+</div>
+<aside id="page-navigation" class="hide">
+<svg class="icon nav-arrow-up" id="page-up"><use xlink:href="#nav-arrow" /></svg>
+<svg class="icon nav-arrow-down" id="page-down"><use xlink:href="#nav-arrow" /></svg>
+</aside>
+<div id="background"></div>
+</body>
+</html>
