@@ -3,6 +3,8 @@ This is the archived version of the HTML rendering including assets (photos, vid
 A live version of the archived version can be viewed here:<br>
 [https://etkaar.github.io/archive/pensink.org/src/en/mabie-todd-swan-1060](https://etkaar.github.io/archive/pensink.org/src/en/mabie-todd-swan-1060)
 
+**Please note that this is copyright protected and mere reproduction is prohibited.**
+
 ---
 
 ## Licenses
