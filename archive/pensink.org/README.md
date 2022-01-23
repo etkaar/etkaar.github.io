@@ -1,6 +1,12 @@
 This is the archived version of the HTML rendering including assets (photos, videos) of the website [pensink.org](https://pensink.org).
 
-# License
+A live version of the archived version can be viewed here:<br>
+[https://etkaar.github.io/archive/pensink.org/src/en/mabie-todd-swan-1060](https://etkaar.github.io/archive/pensink.org/src/en/mabie-todd-swan-1060)
+
+---
+
+## Licenses
+### Website
 
 > The content of this website is protected by copyright.
 >
@@ -8,7 +14,13 @@ This is the archived version of the HTML rendering including assets (photos, vid
 > 
 > ¹ The mere placement of advertising on a website on which the content is to be used, or the possibility of providing monetary support to the operator, does not constitute commercial exploitation in this sense.
 
-# Update
+### Font
+
+The font *Roboto* (see [Google Fonts](https://fonts.google.com/specimen/Roboto#about)) is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+---
+
+## Update
 
 ```
 mkdir /home/etkaar/work
