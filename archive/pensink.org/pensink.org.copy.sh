@@ -119,7 +119,7 @@ read -p "Hostname [$DEFAULT_HOSTNAME]: " HOSTNAME
 HOSTNAME=${HOSTNAME:-$DEFAULT_HOSTNAME}
 
 # Where the HTML renderings and assets are stored
-DEFAULT_SAVE_PATH="/tmp/archive/$HOSTNAME/src"
+DEFAULT_SAVE_PATH="/home/etkaar/work/etkaar.github.io/archive/pensink.org/src"
 read -p "Save Path [$DEFAULT_SAVE_PATH]: " SAVE_PATH
 SAVE_PATH=${SAVE_PATH:-$DEFAULT_SAVE_PATH}
 
