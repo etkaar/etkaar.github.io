@@ -20,6 +20,7 @@
 /images/pages/swan-1060/mabie_todd_1060_closed.jpg
 /images/pages/swan-1060/mabie_todd_1060_nib.jpg
 /images/pages/swan-1060/mabie_todd_1060_open.jpg
+/images/pages/swan-1060/mabie_todd_1060_writing_example.jpg
 /images/pages/rusted-ink-bottle-cap/swan-ink-bottle.jpg
 /images/pages/rusted-ink-bottle-cap/swan-ink-bottle-open-top.jpg
 /images/pages/rusted-ink-bottle-cap/swan-ink-bottle-closed-top.jpg
@@ -55,6 +56,9 @@
 /images/pages/swan-3170/mabie_todd_3170_nib.jpg
 /images/pages/swan-3170/mabie_todd_3170_nib_close-up.jpg
 /images/pages/swan-3170/mabie_todd_3170_with_box.jpg
+/images/pages/swan-3170/mabie_todd_3170_guarantee.jpg
+/images/pages/swan-3170/mabie_todd_3170_manual_front.jpg
+/images/pages/swan-3170/mabie_todd_3170_manual_back.jpg
 /images/pages/photography/faber_castell_nib_color_plum_light.jpg
 /images/pages/magnifier/belomo_magnifier_10x_f.jpg
 /images/pages/making-filler-box/swan_box_replica.jpg
@@ -79,6 +83,7 @@
 /images/pages/swan-1060/thumbs/mabie_todd_1060_closed.jpg
 /images/pages/swan-1060/thumbs/mabie_todd_1060_nib.jpg
 /images/pages/swan-1060/thumbs/mabie_todd_1060_open.jpg
+/images/pages/swan-1060/thumbs/mabie_todd_1060_writing_example.jpg
 /images/pages/rusted-ink-bottle-cap/thumbs/swan-ink-bottle.jpg
 /images/pages/rusted-ink-bottle-cap/thumbs/swan-ink-bottle-open-top.jpg
 /images/pages/rusted-ink-bottle-cap/thumbs/swan-ink-bottle-closed-top.jpg
@@ -113,6 +118,9 @@
 /images/pages/swan-3170/thumbs/mabie_todd_3170_nib.jpg
 /images/pages/swan-3170/thumbs/mabie_todd_3170_nib_close-up.jpg
 /images/pages/swan-3170/thumbs/mabie_todd_3170_with_box.jpg
+/images/pages/swan-3170/thumbs/mabie_todd_3170_guarantee.jpg
+/images/pages/swan-3170/thumbs/mabie_todd_3170_manual_front.jpg
+/images/pages/swan-3170/thumbs/mabie_todd_3170_manual_back.jpg
 /images/pages/photography/thumbs/faber_castell_nib_color_plum_light.jpg
 /images/pages/magnifier/thumbs/belomo_magnifier_10x_f.jpg
 /images/pages/making-filler-box/thumbs/swan_box_replica.jpg
